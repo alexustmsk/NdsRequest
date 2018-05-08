@@ -31,7 +31,7 @@
                         </goals>
                         <configuration>
                             <sources>
-                                <source>${basedir}/target/generated/src/main/java</source>
+                                <source>${basedir}/target/generated-sources/src/main/java</source>
                             </sources>
                         </configuration>
                     </execution>
@@ -43,7 +43,7 @@
                 <version>1.12</version>
                 <configuration>
                     <wsdlDirectory>${basedir}/src/main/resources</wsdlDirectory>
-                    <packageName>alexustmsk</packageName>
+                    <packageName>com.alexustmsk.ws</packageName>
                     <keep>true</keep>
                     <sourceDestDir>${basedir}/target/generated-sources/src/main/java</sourceDestDir>
                     <sei/>
